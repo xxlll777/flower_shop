@@ -4,6 +4,11 @@
 		img{
 			width:400px;
 			border-radius: 10px;
+			@include sp{
+			width:100%;
+			margin-right: auto;
+			margin-left: auto;
+		}
 		}
 	}
 	&__right{
@@ -14,6 +19,11 @@
 		background-color:  #a58b82;
 		border-radius: 10px;
 		box-sizing: border-box;
+		@include sp{
+		width:100%;
+		margin-right: auto;
+		margin-left: auto;
+		}
 		&--ttl{
 			font-size: 22px;
 			font-weight: bold;

@@ -20,7 +20,7 @@ li{
 	display:flex;
 	justify-content: space-between;
 	@include sp{
-		// display-wrap:wrap;
+		display: block;
 	}
 }
 .top__ttl{

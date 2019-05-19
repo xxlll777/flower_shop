@@ -6,8 +6,8 @@
 	&__box img{
 		width: 250px;
 		height:140px;
-		@include sp{
-		width:100%;
+	@include sp{
+		text-align: center;
 	}
 	}
 
@@ -15,11 +15,17 @@
 		margin-right: 20px;
 		@include sp{
 		width:100%;
-	}
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 30px;
+		text-align: center;;
+		}
 		&--ttl{
 			margin-top: 20px;
 			font-size: 14px;
-
+@include sp{
+			margin-top: 10px;
+		}
 		}
 		&--ttl a{
 			display: block;
@@ -28,5 +34,6 @@
 	}
 	&__box:last-of-type{
 		margin-right: 0;
+		margin-bottom: 0;
 	}
 }
