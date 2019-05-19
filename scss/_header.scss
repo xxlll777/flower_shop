@@ -23,9 +23,22 @@
 		padding-top: 30px;
 		margin-right: 50px;
 	}
+
 	&__right--nav{
 		display: flex;
-		
+		@include sp{
+		display: none;
+		}
+	}
+	&__humburger{
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		content: "\f0c9";
+		color:#fff;
+		font-size: 20px;
+		@include pc{
+		display: none;
+		}
 	}
 	&__right--nav a{
 		display: block;
