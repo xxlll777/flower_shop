@@ -132,7 +132,8 @@ li {
   display: flex;
   position: fixed; }
   .header__left {
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-left: 20px; }
   .header__ttl {
     font-size: 30px;
     color: #fff; }
@@ -144,20 +145,53 @@ li {
     justify-content: space-between; }
   .header__right {
     padding-top: 30px; }
+    @media (max-width: 767px) {
+      .header__right {
+        padding-top: 15px;
+        padding-right: 10px; } }
   .header__right--nav {
     display: flex; }
     @media (max-width: 767px) {
       .header__right--nav {
         display: none; } }
-  .header__humburger {
+  @media (min-width: 768px) {
+    .header__humburger {
+      display: none; } }
+  .header__humburger a {
+    text-decoration: none;
+    display: block; }
+  .header__humburger a:hover {
+    opacity: 0,5;
+    cursor: pointer; }
+  .header__humburger--menu {
+    font-size: 16px;
+    color: #fff;
+    text-align: center; }
+  .header__humburger--menu::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f0c9";
+    display: block;
     color: #fff;
-    font-size: 20px; }
-    @media (min-width: 768px) {
-      .header__humburger {
-        display: none; } }
+    font-size: 30px; }
+  .header__humburger--close {
+    display: none; }
+    .header__humburger--close a {
+      text-decoration: none;
+      display: block; }
+    .header__humburger--close a:hover {
+      cursor: pointer; }
+    .header__humburger--close--menu {
+      font-size: 16px;
+      color: #fff;
+      text-align: center; }
+    .header__humburger--close--menu::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f00d";
+      display: block;
+      color: #fff;
+      font-size: 30px; }
   .header__right--nav a {
     display: block;
     color: #fff;
@@ -310,5 +344,20 @@ li {
     .footer__nav--li a {
       display: block;
       color: #fff; }
+
+.humburger--open {
+  display: none;
+  padding-top: 70px; }
+  .humburger--open--li a {
+    display: block;
+    color: #383838;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    text-align: center;
+    text-decoration: none; }
+  .humburger--open--li a:hover {
+    background-color: #4b756e;
+    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
