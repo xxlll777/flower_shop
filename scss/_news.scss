@@ -1,0 +1,31 @@
+.news{
+
+	padding-top: 70px;
+	padding-bottom:70px;
+	&__ttl{
+		font-size: 24px;
+		font-weight: bold;
+		border-bottom: 2px solid;
+		text-align: center;;
+		margin-right: auto;
+		margin-left: auto;
+		width:80px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	&__article{
+
+		display: flex;
+		margin-bottom: 10px;
+		border-bottom: 1px solid;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	&__date{
+		font-size: 14px;
+	}
+	&__txt{
+		margin-left: 50px;
+		font-size: 14px;
+	}
+}

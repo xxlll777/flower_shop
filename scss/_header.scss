@@ -1,0 +1,36 @@
+.header{
+	background-color: #193833;
+	height:70px;
+	display: flex;
+	&__left{
+		padding-top: 30px;
+		margin-left: 50px;
+	}
+	&__ttl{
+		
+		font-size: 20px;
+		color:#fff;
+		
+	}
+	&__box{
+		display: flex;
+		width:1000px;
+		margin-right: auto;
+		margin-left: auto;
+    	justify-content: space-between;
+	}
+	&__right{
+		padding-top: 30px;
+		margin-right: 50px;
+	}
+	&__right--nav{
+		display: flex;
+		
+	}
+	&__right--nav a{
+		display: block;
+		color:#fff;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

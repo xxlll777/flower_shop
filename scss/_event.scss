@@ -1,0 +1,23 @@
+.event{
+	padding-bottom: 70px;
+	&__box img{
+		width: 250px;
+		height:140px;
+	}
+
+	&__box{
+		margin-right: 20px;
+		&--ttl{
+			margin-top: 20px;
+			font-size: 14px;
+
+		}
+		&--ttl a{
+			display: block;
+			color:#383838;
+		}
+	}
+	&__box:last-of-type{
+		margin-right: 0;
+	}
+}
