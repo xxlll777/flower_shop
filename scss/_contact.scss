@@ -2,7 +2,7 @@
 	padding-bottom: 70px;
 	&__left{
 		img{
-			width:400px;
+			width:350px;
 			border-radius: 10px;
 			@include sp{
 			width:100%;
@@ -12,7 +12,7 @@
 		}
 	}
 	&__right{
-		width:490px;
+		width:530px;
 		margin-left: 10px;
 		color:#fff;
 		padding: 50px 70px;
