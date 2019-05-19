@@ -200,7 +200,7 @@ li {
 
 .main__img img {
   width: 100%;
-  margin-top: 67px; }
+  margin-top: 60px; }
   @media (max-width: 767px) {
     .main__img img {
       height: 100%; } }
@@ -347,7 +347,8 @@ li {
 
 .humburger--open {
   display: none;
-  padding-top: 70px; }
+  padding-top: 70px;
+  margin-bottom: -60px; }
   .humburger--open--li a {
     display: block;
     color: #383838;
