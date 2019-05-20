@@ -1,16 +1,24 @@
 .blog{
 	padding-bottom: 70px;
+
 	&__img{
 
 	}
 	&__img img{
 		width:200px;
 		height:150px;
+		@include sp{
+			width:100%;
+		}
 
 	}
 	&__box{
 		width:210px;
 		margin-right: 10px;
+		margin-bottom: 20px;
+		@include sp{
+			width:50%;
+		}
 	}
 	&__box:last-of-type{
 		margin-right: 0;
@@ -19,6 +27,9 @@
 		a{
 		display: block;
 		color:#383838;
+		@include sp{
+			width:100%;
+		}
 	}
 	&--date{
 		margin-top: 10px;
