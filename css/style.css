@@ -222,6 +222,9 @@ li {
   .news__txt {
     margin-left: 50px;
     font-size: 14px; }
+    .news__txt a {
+      color: #383838;
+      text-decoration: none; }
 
 .event {
   padding-bottom: 70px; }
